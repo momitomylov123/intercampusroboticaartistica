@@ -3,13 +3,14 @@
  #include <avr/power.h> // Required for 16 MHz Adafruit Trinket
 #endif
 
-#define PIN        18 // acá va conectado el neopixel
+#define PIN        12 // acá va conectado el neopixel
 
-#define NUMPIXELS 8 // Popular NeoPixel ring size
+#define NUMPIXELS 3 // Popular NeoPixel ring size
 
 Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
 #define DELAYVAL 2000 // Time (in milliseconds) to pause between pixels
+
 
 char comando;
 

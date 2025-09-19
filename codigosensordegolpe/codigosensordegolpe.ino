@@ -11,11 +11,13 @@ void setup()
 void loop()
 {
   lee = digitalRead(pulse1);
+  Serial.println(digitalRead(pulse1));
   if (lee == 1){
     digitalWrite(led, HIGH);
+    delay (1000);
   }
   /*else {
     digitalWrite(led, LOW);
   }*/
-  Serial.println(lee);
+  //Serial.println(lee);
 }
