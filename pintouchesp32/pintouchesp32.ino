@@ -17,6 +17,7 @@ void loop() {
   if (lectura < umbral) {  
     digitalWrite(ledPin, HIGH);   // Enciende el LED
     Serial.println("⚡ ¡Contacto detectado!");
+    
   } else {
     digitalWrite(ledPin, LOW);    // Apaga el LED
     Serial.println("Sin contacto");
